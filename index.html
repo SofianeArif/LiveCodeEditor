@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="https://kit.fontawesome.com/c28ec990fa.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- HTML -->
+
+  <body>
+    <div class="editorContainer">
+      <div class="wrapper">
+        <div class="title">
+          <div class="main-title">
+            <img class="icon" src="icons/html-icon.svg" alt="" />
+            <i id="icone" class="fa-brands fa-html5"></i>
+          </div>
+          <button class="min close">
+            <i class="fas fa-arrows-alt-h" style="color: #fff"></i>
+          </button>
+        </div>
+
+        <textarea
+          name="html"
+          id="html"
+          spellcheck="false"
+        ></textarea>
+        <button class="clear html">clear</button>
+        <button class="copybtn copy-html">
+          <span>Copy HTML</span>
+        </button>
+      </div>
+
+      <!-- CSS -->
+
+      <div class="wrapper">
+        <div class="title">
+          <div class="main-title">
+            <i id="icone" class="fa-brands fa-css3-alt"></i>
+          </div>
+          <button class="min close">
+            <i class="fas fa-arrows-alt-h" style="color: #fff"></i>
+          </button>
+        </div>
+        <textarea
+          name="css"
+          id="css"
+        ></textarea>
+        <button class="clear css">clear</button>
+        <button class="copybtn copy-css">
+          <span>Copy CSS</span>
+        </button>
+      </div>
+
+      <!-- JS -->
+
+      <div class="wrapper">
+        <div class="title">
+          <div class="main-title">
+            <img class="icon" src="icons/JS-icon.svg" alt="" />
+            <i id="icone" class="fa-brands fa-js"></i>
+          </div>
+          <button class="min close">
+            <i class="fas fa-arrows-alt-h" style="color: #fff"></i>
+          </button>
+        </div>
+        <textarea
+          name="js"
+          id="js"
+          spellcheck="false"
+        ></textarea>
+        <button class="clear js">clear</button>
+        <button class="copybtn copy-js">
+          <span>Copy JS</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- iFrame -->
+
+    <div class="outputContainer">
+      <iframe 
+        id="code"
+        title="output"
+        frameborder="0"
+        width="100%"
+        height="100%"
+      ></iframe>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
