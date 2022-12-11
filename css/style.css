@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
 html,
 body {
   padding: 0;
@@ -9,7 +11,6 @@ body {
   text-align: center;
 }
 *{
-  color: white;
   box-sizing: border-box;
 }
 
@@ -28,12 +29,76 @@ textarea {
 }
 h2 {
   margin: 0;
+  padding-left: 5px;
 }
 
 #icone{
   margin: 0;
   font-size: 40px;
 }
+a {
+  color: white;
+}
+
+a::hover {
+  color: black;
+}
+
+
+
+
+
+
+footer{
+    font-family: 'Fredoka', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #b8b8b4;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+
+.divlogo {
+  font-size: 22px;
+  color: #403a37;
+  font-family: 'Fredoka', sans-serif;
+  background-color: #b8b8b4;
+  display: flex;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+
+/*Animation TypeWriter*/
+
+.divlogo h2 {
+  width: 11ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid orange;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
 .editorContainer {
         
   background-image: url('back.jpg');
