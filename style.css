@@ -89,7 +89,7 @@ h2 {
   font-weight: 700;
 }
 
-.min {
+.control {
   width: 20px;
   height: 20px;
   position: relative;
@@ -101,6 +101,15 @@ h2 {
   cursor: pointer;
   margin-top: 4px;
   margin-right: 16px;
+}
+
+.control::before {
+  content: 'OO';
+  position: absolute;
+  top: -2px;
+  left: -6px;
+  margin: 8px;
+  color: #9e9e9e;
 }
 
 .icon {

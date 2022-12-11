@@ -23,11 +23,11 @@ document.querySelectorAll('.clear').forEach((clear) =>
 
 // bouton minimize 
 
-document.querySelectorAll('.min').forEach((min) =>
-  min.addEventListener('click', (e) => {
+document.querySelectorAll('.control').forEach((control) =>
+  control.addEventListener('click', (e) => {
     e.target.parentElement.parentElement.classList.toggle('collapse');
     e.target.classList.add('close');
-    e.target.parentElement.querySelector('.fa-brands').classList.toggle('hidden');
+    e.target.parentElement.querySelector('h2').classList.toggle('hidden');
   })
 );
 
