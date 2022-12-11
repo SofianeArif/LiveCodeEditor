@@ -14,9 +14,6 @@ body {
 }
 
 textarea {
-  background: url(http://i.imgur.com/2cOaJ.png);
- background-attachment: local;
- background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   padding: 1rem;
@@ -111,7 +108,6 @@ h2 {
 }
 
 .min::before {
-  content: '➕';
   position: absolute;
   top: -2px;
   left: -6px;
@@ -165,20 +161,4 @@ h2 {
 }
 .copybtn:hover {
   background: #3a505871;
-}
-
-
-.line-numbers {
-  width: 20px;
-  text-align: right;
-}
-
-.line-numbers span {
-  counter-increment: linenumber;
-}
-
-.line-numbers span::before {
-  content: counter(linenumber);
-  display: block;
-  color: #506882;
 }
