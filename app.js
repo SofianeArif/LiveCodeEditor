@@ -27,7 +27,7 @@ document.querySelectorAll('.min').forEach((min) =>
   min.addEventListener('click', (e) => {
     e.target.parentElement.parentElement.classList.toggle('collapse');
     e.target.classList.add('close');
-    e.target.parentElement.querySelector('#icone').classList.toggle('hidden');
+    e.target.parentElement.querySelector('.fa-brands').classList.toggle('hidden');
   })
 );
 
