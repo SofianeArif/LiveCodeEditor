@@ -108,6 +108,7 @@ h2 {
 }
 
 .min::before {
+  content: '➕';
   position: absolute;
   top: -2px;
   left: -6px;
