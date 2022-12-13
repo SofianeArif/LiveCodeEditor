@@ -18,7 +18,7 @@ textarea {
   width: 100%;
   height: 100%;
   padding: 1rem;
-  background: #253237;
+  background: #2e2f3e;
   color: white;
   outline: none;
   border: none;
@@ -55,7 +55,7 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #b8b8b4;
+    background-color: #0f0e17;
     height: auto;
     width: 100vw;
     color: #fff;
@@ -63,9 +63,9 @@ footer{
 
 .divlogo {
   font-size: 22px;
-  color: #403a37;
+  color: #fff;
   font-family: 'Fredoka', sans-serif;
-  background-color: #b8b8b4;
+  background-color: #0f0e17;
   display: flex;
 }
 
@@ -82,7 +82,7 @@ footer{
   animation: typing 1s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid orange;
+  border-right: 3px solid #ff8906;
   font-size: 2em;
 }
 
@@ -100,14 +100,6 @@ footer{
 
 
 .editorContainer {
-        
-  background-image: url('back.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position:center;
-  background-size: 100% ;
-
- 
   height: 50vh;
   display: flex;
 }
@@ -137,14 +129,14 @@ footer{
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  background: hsl(225, 6%, 25%);
+  background:#0f0e17;
   position: relative;
 }
 
 .title {
   display: flex;
   justify-content: space-between;
-  background-color: #9e9e9e;
+  background-color: #ff8906;
   color: #fff;
   padding: 0.5rem;
   padding-left: 1rem;
@@ -174,7 +166,7 @@ footer{
   top: -2px;
   left: -6px;
   margin: 8px;
-  color: #9e9e9e;
+  color: #ff8906;
 }
 
 .icon {
@@ -203,11 +195,13 @@ footer{
   display: block;
 }
 
+
+
 .clear:hover {
   opacity: 1;
 }
 .copybtn {
-  background: #212d31;
+  background: #2e2f3e;
   border: none;
   cursor: pointer;
   color: #fff;
@@ -224,5 +218,5 @@ footer{
   margin-right: 5px;
 }
 .copybtn:hover {
-  background: #3a505871;
+  background: #ff8906;
 }
